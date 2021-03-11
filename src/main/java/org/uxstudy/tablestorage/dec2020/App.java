@@ -31,7 +31,7 @@ public class App
     public App()
     {
         final String connvar = System.getenv("AZURE_TABLES_CONNECTION_STRING");
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello Planet!" );
         tableServiceClient = new TableServiceClientBuilder()
         .connectionString(connvar)
         .buildClient();
